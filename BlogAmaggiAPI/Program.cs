@@ -1,9 +1,8 @@
 using AutoMapper;
-using BlogAmaggiAPI.Data;
-using BlogAmaggiAPI.Models;
-using BlogAmaggiAPI.ViewModels;
+using BlogAPI.Data;
+using BlogAPI.Models;
+using BlogAPI.ViewModels;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -49,7 +48,7 @@ builder.Services.AddAuthentication(x =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "BlogAmaggiAPI", Description = "API desenvolvida para o teste Amaggi", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "BlogAPI", Description = "API desenvolvida para o teste Amaggi", Version = "v1" });
 
     // Configuração do JWT no Swagger
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme

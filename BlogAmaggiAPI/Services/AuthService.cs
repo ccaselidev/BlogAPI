@@ -2,7 +2,7 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 
-namespace BlogAmaggiAPI.Services
+namespace BlogAPI.Services
 {
     public static class AuthService
     {

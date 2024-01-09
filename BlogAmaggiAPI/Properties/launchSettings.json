@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "BlogAmaggiAPI": {
+    "BlogAPI": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

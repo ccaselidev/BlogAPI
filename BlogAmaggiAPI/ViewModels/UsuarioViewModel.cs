@@ -1,4 +1,4 @@
-﻿namespace BlogAmaggiAPI.ViewModels
+﻿namespace BlogAPI.ViewModels
 {
     public class UsuarioViewModel
     {

@@ -1,13 +1,13 @@
 using AutoMapper;
-using BlogAmaggiAPI.Data;
-using BlogAmaggiAPI.Models;
-using BlogAmaggiAPI.ViewModels;
+using BlogAPI.Data;
+using BlogAPI.Models;
+using BlogAPI.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.WebSockets;
 using System.Text;
 
-namespace BlogAmaggiAPI.Controllers
+namespace BlogAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]

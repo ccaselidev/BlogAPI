@@ -1,4 +1,4 @@
-﻿namespace BlogAmaggiAPI.Models
+﻿namespace BlogAPI.Models
 {
     public class Usuario
     {        

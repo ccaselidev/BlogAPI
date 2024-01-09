@@ -1,8 +1,8 @@
-﻿using BlogAmaggiAPI.Controllers;
-using BlogAmaggiAPI.Models;
+﻿using BlogAPI.Controllers;
+using BlogAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlogAmaggiAPI.Data
+namespace BlogAPI.Data
 {
     public class BaseContext : DbContext
     {
